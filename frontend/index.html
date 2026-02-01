@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Professional Weather App | Java & React</title>
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Loads Tailwind CSS framework from CDN for utility-first styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Loads the React library (development version) -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+    <!-- Loads ReactDOM for rendering React components into the DOM -->
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Loads Babel to transpile JSX and modern JavaScript in the browser -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <style>
+        /* Setting the default font and defining entry animations for a better UX */
+        body { font-family: 'Inter', sans-serif; }
+        .animate-fadeIn {
+            animation: fadeIn 0.6s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+<div id="root"></div>
+<script type="text/babel" src="/app.js"></script>
+</body>
+</html>
