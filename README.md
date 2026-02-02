@@ -1,6 +1,6 @@
 # Full-Stack Weather Insights Application
 
-A professional, lightweight weather dashboard built using **Vanilla Java** for the backend and **React** for the frontend, demonstrating a modular "No-Build" architecture.
+A lightweight weather dashboard built using **Vanilla Java** for the backend and **React** for the frontend, demonstrating a modular "No-Build" architecture.
 
 ## 🌟 Architectural Features
 - **Modular Frontend:** React components are decoupled into independent files (`/components`) and managed via global scope—proving clean code principles without a complex build tool like Vite.
